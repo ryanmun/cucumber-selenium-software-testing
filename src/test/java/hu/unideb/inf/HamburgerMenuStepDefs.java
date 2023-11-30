@@ -31,7 +31,7 @@ public class HamburgerMenuStepDefs extends AbstractStepDefs {
 
     @Then("the inventory page is opened")
     public void theInventoryPageIsOpened() {
-        Assert.assertEquals(driver.getCurrentUrl(), homePage.openPage());
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.saucedemo.com/");
     }
 
     @Then("Check if About Webpage is opened")
